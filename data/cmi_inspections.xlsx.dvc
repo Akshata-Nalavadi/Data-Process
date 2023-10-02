@@ -1,0 +1,5 @@
+outs:
+- md5: 8413131c32be955a975bfb2810dfd4a6
+  size: 342063
+  hash: md5
+  path: cmi_inspections.xlsx
