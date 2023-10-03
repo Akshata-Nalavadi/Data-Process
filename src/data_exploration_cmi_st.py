@@ -9,6 +9,15 @@ from plotnine import (
     labs, facet_wrap, theme_dark, theme, element_rect, theme_gray, theme_seaborn
 )
 
+
+st.title("Con Mon vibration on pumps")
+
+st.header("Introduction")
+st.markdown("Longitudinal routine vibration condition monitoring data on 18 identical centrifugal pump systems over years of operation. Data includes multiple points on the motor and pump, notification of failures and suspensions, overall vibration values and frequency band information.")
+st.markdown("Vibration data collected using a handheld meter and processed using vendor's propriatary software. Raw data is unavailable and meter vendor is not known.")
+st.markdown("Required data set citation is https://prognosticsdl.systemhealthlab.com/ and the date you accessed the data.")
+st.markdown("Required paper citation if using the data is: Sundin, P.O., Eng, P., Montgomery, N. & Jardine, A.K.S., (2007) 'Pulp mill on-site implementation of CBM decision support software' in Proceedings of ICOMS Asset Management Conference 2007, Melbourne Australia, Paper 68.")
+
 # Load the data
 cmidat = pd.read_excel("data/cmi_inspections.xlsx")
 
