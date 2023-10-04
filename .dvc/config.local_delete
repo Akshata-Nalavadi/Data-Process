@@ -1,0 +1,2 @@
+['remote "myremote"']
+    connection_string = "'DefaultEndpointsProtocol=https;AccountName=consatml;AccountKey=W7N2wao25AL3mL3aU2OuuGGBUrIYcrO9UhkirB+0w8pXpEWbMvvd2fyUIOVAkfaR0X/kXR7uKbQA+AStbqk8qA==;EndpointSuffix=core.windows.net;ssl=False'"
